@@ -1,302 +1,575 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Next Web Clone</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <div class="left">
-                    <h3>TNW</h3>
-                </div>
-                <div class="right">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </header>
-            <div class="main main-grid">
-                <div class="story" id="story1">
-                    <h2 class="title">Story Title</h2>
-                    <div class="details">
-                        <p class="author">Author</p>
-                        <p class="timestamp">Timestamp</p>
-                        <p class="shares">Shares</p>
-                    </div>
-                </div>
-                <div class="story" id="story2">
-                    <h2 class="title">Story Title</h2>
-                    <div class="details">
-                        <p class="author">Author</p>
-                        <p class="timestamp">Timestamp</p>
-                        <p class="shares">Shares</p>
-                    </div>
-                </div>
-                <div class="story" id="story3">
-                    <h2 class="title">Story Title</h2>
-                    <div class="details">
-                        <p class="author">Author</p>
-                        <p class="timestamp">Timestamp</p>
-                        <p class="shares">Shares</p>
+<head>
+    <meta charset="utf-8">
+    <title>Next Web Clone</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lobster|Roboto" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <h3>TNW</h3>
+            </div>
+            <div class="right">
+                <span class="search">
+                    <i class="fas fa-search fa-lg" data-fa-transform="flip-h"></i>
+                </span>
+                <span class="menu">
+                    <i class="fas fa-bars fa-lg"></i>
+                </span>
+            </div>
+        </header>
+        <div class="main main-grid">
+            <div class="story" id="story1">
+                <div class="details">
+                    <h2 class="title">Instagram alerts people when you screenshot their Stories, here’s how to stop it</h2>
+                    <div class="subtitle">
+                        <p class="author">by Mix</p>
+                        <p class="timestamp"><i class="far fa-clock"></i> <span class="time">1 hour ago</span></p>
+                        <p class="shares"><i class="fas fa-share-alt"></i> <span class="shares">99</span></p>
                     </div>
                 </div>
             </div>
-            <div class="latest-news">
-                <h2 class="section-heading">Latest news</h2>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
-                </div>
-                <div class="news">
-                    <img src="" alt="thumbnail" class="thumbnail">
-                    <h3 class="heading">Heading</h3>
-                    <p class="author">Author</p>
-                    <p class="timestamp">Timestamp</p>
+            <div class="story" id="story2">
+                <div class="details">
+                    <h2 class="title">Future robots won’t look like humans because we’re poorly designed</h2>
+                    <div class="subtitle">
+                        <p class="author">by The Conversation</p>
+                        <p class="timestamp"><i class="far fa-clock"></i> <span class="time">2 hours ago</span></p>
+                        <p class="shares"><i class="fas fa-share-alt"></i> <span class="shares">90</span></p>
+                    </div>
                 </div>
             </div>
-            <div class="categories">
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
+            <div class="story" id="story3">
+                <div class="details">
+                    <h2 class="title">Bring on the nostalgia with this in-browser Winamp emulator</h2>
+                    <div class="subtitle">
+                        <p class="author">by Bryan Clark</p>
+                        <p class="timestamp"><i class="far fa-clock"></i> <span class="time">11 hours ago</span></p>
+                        <p class="shares"><i class="fas fa-share-alt"></i> <span class="shares">524</span></p>
                     </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul><div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+            </div>
+        </div>
+        <div class="latest-news">
+            <h2 class="section-heading">Latest news</h2>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/12/twitch-e1491600114230-540x270.jpg" alt="thumbnail" class="thumbnail">
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+                <div class="news-details">
+                    <h3 class="heading">Twitch's new sexual content guidelines are head-scratchingly bad </h3>
+                    <p class="subtitle">Rachel Kaser . 11 hours ago</p>
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/google-photos-513x270.png" alt="thumbnail" class="thumbnail">
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+                <div class="news-details">
+                    <h3 class="heading">How Google and Apple solved one of photography's biggest problems </h3>
+                    <p class="subtitle">Bryan Clark . 12 hours ago</p>
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/socrates-513x270.jpg" alt="thumbnail" class="thumbnail">
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+                <div class="news-details">
+                    <h3 class="heading">Socrates Rosenfeld is the leader cannabis tech needs </h3>
+                    <p class="subtitle">Tristan Greene . 14 hours ago</p>
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
-                        </div>
-                    </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/binance-panic-513x270.jpg" alt="thumbnail" class="thumbnail">
                 </div>
-                <div class="category">
-                    <div class="top">
-                        <div class="most-popular">Most Popular</div>
-                        <div class="latest">
-                            Latest
+                <div class="news-details">
+                    <h3 class="heading">Binance: Calm down, we haven't been hacked </h3>
+                    <p class="subtitle">Bryan Clark . 16 hours ago</p>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/twitter_featured-540x270.jpg" alt="thumbnail" class="thumbnail">
+                </div>
+                <div class="news-details">
+                    <h3 class="heading">Twitter's profitable. Now it's time to address the bot issue </h3>
+                    <p class="subtitle">Tristan Greene . 17 hours ago</p>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/deepmindmt-796x401.jpg" alt="thumbnail" class="thumbnail">
+                </div>
+                <div class="news-details">
+                    <h3 class="heading">Google taught AI to multitask with an intense gaming sesh </h3>
+                    <p class="subtitle">Tristan Greene . 19 hours ago</p>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Labo-6-of-6-516x270.jpg" alt="thumbnail" class="thumbnail">
+                </div>
+                <div class="news-details">
+                    <h3 class="heading">Nintendo's Labo is so incredibly creative it might just work </h3>
+                    <p class="subtitle">Napier Lopez . 19 hours ago </p>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-thumbnail">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Untitled-design-59-796x417.jpg" alt="thumbnail" class="thumbnail">
+                </div>
+                <div class="news-details">
+                    <h3 class="heading">TNW’s Big Spam: Rocket man can’t get it up</h3>
+                    <p class="subtitle">Georgina Ustik . 23 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="category">
+                <h2 class="section-heading">Apps</h2>
+                <div class="top">
+                    <div class="most-popular" id="one">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Instagram alerts people when you screenshot their Stories, here's how to stop it</h3>
+                            <p class="subtitle">Mix . 4 hours ago</p>
                         </div>
                     </div>
-                    <ul class="stories">
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                        <li>Story</li>
-                    </ul>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Slack's new emoji are awful – here's how to bring back the old ones</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/slack.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>Instagram alerts people when you sceenshot their Stories. Here's how to stop it</p>
+                    </li>
+                    <li>
+                        <p>Twitter's profitble. Now it's time to address the bot issue.</p>
+                    </li>
+                    <li>
+                        <p>Snapchat now lets users create their own face Lenses</p>
+                    </li>
+                    <li>
+                        <p>Binance suspends all cryptocurrency trading due to technical issues and users are mad.</p>
+                    </li>
+                    <li>
+                        <p>Snapchat's new live video mode goes for Olympic gold</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Gear</h2>
+                <div class="top">
+                    <div class="most-popular" id="two">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Nintendo's Labo is so incredibly creative it might just work</h3>
+                            <p class="subtitle">Napier Lopez . 22 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Kano’s DIY Computer Kit is a hit with our young reviewers (and me)</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/IMG_7860-hed.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>Apple wants to make a stylus for drawing in the air</p>
+                    </li>
+                    <li>
+                        <p>Amazon gets rid of ads on its super-cheap Prime phones</p>
+                    </li>
+                    <li>
+                        <p>Where's the killer app for smart glasses?</p>
+                    </li>
+                    <li>
+                        <p>Amazfit's new Bip smartwatch promises 45-day battery life for just $100</p>
+                    </li>
+                    <li>
+                        <p>You can finally pre-order Huawei's Mate 10 Pro in the US</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Tech</h2>
+                <div class="top">
+                    <div class="most-popular" id="three">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Google taught AI to multitask with an intense gaming sesh</h3>
+                            <p class="subtitle">Tristan Greene . 20 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Future robots won't look like humans because we're poorly designed</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Untitled-design-60.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>How Google and Apple solve one of photography's biggest problems</p>
+                    </li>
+                    <li>
+                        <p>Binance: Calm down, we haven't been hacked</p>
+                    </li>
+                    <li>
+                        <p>Google taught AI to multitask with an intense gaming sesh</p>
+                    </li>
+                    <li>
+                        <p>TNW's Big Spam: Rocket man can't get it up</p>
+                    </li>
+                    <li>
+                        <p>I used neural networks to see what a self-driving car sees</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Creative</h2>
+                <div class="top">
+                    <div class="most-popular" id="four">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Neuroscientists team with top gamers to pwn more noobs</h3>
+                            <p class="subtitle">Rachel Kaser . 2 days ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>How to build a UX portfolio with no work experience</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Untitled-design-54.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>IMDB, Rotten Tomates, or Metacritic? A data scientist's guide to movie atings</p>
+                    </li>
+                    <li>
+                        <p>Binance: Calm down, we haven't been hacked</p>
+                    </li>
+                    <li>
+                        <p>Designers! Don't let harsh feedback completely destroy your sense of self worth</p>
+                    </li>
+                    <li>
+                        <p>How I made a font from scratch and submitted it to Google in 24 hours</p>
+                    </li>
+                    <li>
+                        <p>Here's how to remove the bias from your UX design</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Contributors</h2>
+                <div class="top">
+                    <div class="most-popular" id="five">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Will self-driving cars be able to diagnose and repair themselves? Yes. No. Sort of</h3>
+                            <p class="subtitle">Giles Kirkland . 1 day ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Cryptocurrency and crowdfunding — a perfect match? This fundraising company thinks so</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/coin_crowdfunding.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>12 essentials steps to successfully move your business to the cloud</p>
+                    </li>
+                    <li>
+                        <p>The hidden world of Chinese livestreaming app Inke</p>
+                    </li>
+                    <li>
+                        <p>Will self-driving cars be able to diagnose and repair themselves? Yes. No. Sort of</p>
+                    </li>
+                    <li>
+                        <p>EU’s new anti-geoblocking law doesn’t apply to online games, ebooks, and more fun stuff</p>
+                    </li>
+                    <li>
+                        <p>The SCIC and the blockchain pave the way to a new era</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Insights</h2>
+                <div class="top">
+                    <div class="most-popular" id="six">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Uber and Waymo reach settlement over allegedly stolen self-driving tech</h3>
+                            <p class="subtitle">Matthew Hughes . 13 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Socrates Rosenfeld is the leader cannabis tech needs</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/socrates.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>Hacker tricks official Vatican News site into declaring God an onion</p>
+                    </li>
+                    <li>
+                        <p>This handy app turns your LinkedIn profile into a gorgeous CV</p>
+                    </li>
+                    <li>
+                        <p>Reddit bans Deepfakes community that made AI-generated celebrity porn</p>
+                    </li>
+                    <li>
+                        <p>Study: 44% of Bitcoin transactions are for illegal activities</p>
+                    </li>
+                    <li>
+                        <p>Botched ICO leaks users’ passport data, calls police on guy who found the bug</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Launch</h2>
+                <div class="top">
+                    <div class="most-popular" id="seven">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Listen to the Falcon Heavy's thunderous launch in 3D audio</h3>
+                            <p class="subtitle">Napier Lopez . 2 days ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Diablo creator goes solo for his next RPG, It Lurks Below</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/It-Lurks-Below.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>Amazon wants to revolutionize healthcare with its new venture</p>
+                    </li>
+                    <li>
+                        <p>Indian ride-hailing giant Ola takes the fight to Uber in Australia</p>
+                    </li>
+                    <li>
+                        <p>Google is building Bulletin, a hyperlocal community news service</p>
+                    </li>
+                    <li>
+                        <p>Alphabet’s new security company wants to help ‘the good guys’ fight cybercrime</p>
+                    </li>
+                    <li>
+                        <p>Google now sells audiobooks that you can listen to without your phones</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">World</h2>
+                <div class="top">
+                    <div class="most-popular" id="eight">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Where are our cyber peacekeeping forces?</h3>
+                            <p class="subtitle">The Conversation . 6 days ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Counter-Strike co-creator arrested, suspended from Valve for sexual exploitation of a child</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Counter-Strike-hed.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>These are the wines that pair best with dick, John McAfee</p>
+                    </li>
+                    <li>
+                        <p>Latvian startups to watch: 3D printed casts, crypto inheritances, and a tiny manned aircrafts</p>
+                    </li>
+                    <li>
+                        <p>I salute the 1 million North Americans who ditched Facebook last quarter</p>
+                    </li>
+                    <li>
+                        <p>Facebook bans cryptocurrency ads because they’re mostly scams</p>
+                    </li>
+                    <li>
+                        <p>Lyft investigates claims of employees peeking at riders’ contact info and destinations</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2 class="section-heading">Distract</h2>
+                <div class="top">
+                    <div class="most-popular" id="nine">
+                        <div class="text">
+                            <h4>Most Popular</h4>
+                            <h3>Bring on the nostalgia with this in-browser Winamp emulator</h3>
+                            <p class="subtitle">Bryan Clark . 1 day ago</p>
+                        </div>
+                    </div>
+                    <div class="latest">
+                        <div class="latest-details">
+                            <h4>Latest</h4>
+                            <p>Twitch's new sexual content guidelines are head-scratchingly bad</p>
+                        </div>
+                        <div class="latest-thumbnail">
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/12/twitch-e1491600114230.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="stories">
+                    <li>
+                        <p>The 157 new emoji you’ll be obsessed with in 2018</p>
+                    </li>
+                    <li>
+                        <p>Listen to the Falcon Heavy’s thunderous launch in 3D audio</p>
+                    </li>
+                    <li>
+                        <p>AI-powered bathroom cam network is Reddit’s most WTF shower thought</p>
+                    </li>
+                    <li>
+                        <p>PlayStation 4 update finally lets you delete old notifications</p>
+                    </li>
+                    <li>
+                        <p>I played the new X-Files game, unfortunatelys</p>
+                    </li>
+                </ul>
             </div>
             <div class="deals">
-                <h2 class="section-heading"></h2>
+                <h2 class="section-heading">Latest Deals</h2>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p>
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp0.stackassets.com/d06e0a21251242c02e8c18b656d7598bf7f6ade1/store/2e8b9b68df7803b6a2c5f5fcfdf8e5d32fb52a25490da53bdd5a790542e5/sale_14040_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">SE Ranking Personal Plan: Lifetime Subscription </h3>
+                        <p class="subtitle"><span class="original-price">$840</span> <span class="current-price">$59</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp0.stackassets.com/91b7af1ab355a64e0aa5cfe7e6b693f6106c54eb/store/c70f27fe9eff278a7d34ea4f7fc7a7fb21013d391932dd690b845d90d33b/sale_7620_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">Disconnect: Lifetime Premium Subscription</h3>
+                        <p class="subtitle"><span class="original-price">$500</span> <span class="current-price">$49</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp3.stackassets.com/cc167d666da5a61584aefe36077eb181a1953542/store/266381f6c7251c76b6fa08b8abbbb03deece5df11811416ad6c452996177/sale_14237_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">The Complete 2018 CompTIA Certification Training Bundle: Lifetime Access</h3>
+                        <p class="subtitle"><span class="original-price">$4927</span> <span class="current-price">$59</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp2.stackassets.com/95ccaf0c2145d01fdcc0eee4a4d4f1d4f6b9a9f7/store/911dc9adcf56a1bd10299f1b64c447796784e17fe5197eef1cae02549dce/sale_14322_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">The Microsoft Data Analysis Bundle: Lifetime Access</h3>
+                        <p class="subtitle"><span class="original-price">$1104</span> <span class="current-price">$29</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp1.stackassets.com/e26bdff551caae6b2e0521b5c500d3d40cdc9d23/store/5b5b16e226833af8fc704ab70a37ce5400f116dafa40044bfbae50e2f14f/sale_13786_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">Social Insider Pro: Lifetime Subscriptions</h3>
+                        <p class="subtitle"><span class="original-price">$3540</span> <span class="current-price">$29.99</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp2.stackassets.com/9bcc322934675c0d0b6acc1d2a39af2e36e2a560/store/08a14a6a1434c9fa1fe6acd595e613cf87fa83cdabf5498ecfc64ef49cb1/sale_14019_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">Copywriting Mastery Bundle</h3>
+                        <p class="subtitle"><span class="original-price">$660</span> <span class="current-price">$19</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp1.stackassets.com/563f51f75ab381dcc62f2ce6c1c26ecf06cfde46/store/b4a97ea5697cd5221fc3efaa926be44271c0a10d889b3e7062f7a271d9e1/sale_10069_primary_image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">CloudApp Team Plan: Lifetime Subscription</h3>
+                        <p class="subtitle"><span class="original-price">$1080</span> <span class="current-price">$29.99</span></p>
+                    </div>
                 </div>
                 <div class="deal">
-                    <img src="" alt="" class="thumbnail">
-                    <h3 class="course-name">Course</h3>
-                    <p class="original-price">Original</p>
-                    <p class="current-price">Current</p
+                    <div class="deal-thumbnail">
+                        <img src="https://cdnp2.stackassets.com/09a444e1c86e9b1935513efb7d8835a2a0dc96da/store/9094143c1ca8a4590b6587adc2a9079bdb3d343c7ca864b772de1aa35610/image.jpg" alt="thumbnail" class="thumbnail">
+                    </div>
+                    <div class="deal-details">
+                        <h3 class="heading">The Complete Digital Marketing Course</h3>
+                        <p class="subtitle"><span class="original-price">$200</span> <span class="current-price">$9</span></p>
+                    </div>
                 </div>
             </div>
-            <footer>
-                <div class="social-media"></div>
-                <div class="nav"></div>
-            </footer>
         </div>
+        <footer>
+            <div class="social-media">
+                <ul>
+                    <li><i class="fab fa-facebook-square fa-lg"></i></li>
+                    <li><i class="fab fa-twitter fa-lg"></i></li>
+                    <li><i class="fab fa-youtube fa-lg"></i></li>
+                    <li><i class="fab fa-instagram fa-lg"></i></li>
+                    <li><i class="fab fa-pinterest-p fa-lg"></i></li>
+                    <li><i class="fas fa-rss fa-lg"></i></li>
+                    <li><i class="fas fa-envelope fa-lg"></i></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Events</li>
+                    <li>About</li>
+                    <li>Advertise</li>
+                    <li>Jobs</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </footer>
     </body>
-</html>
+    </html>
