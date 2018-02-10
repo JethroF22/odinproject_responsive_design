@@ -183,15 +183,14 @@ header .right .menu{
 }
 
 .category .top .most-popular{
-    min-height: 450px;
-    height: 80vh;
+    height: 450px;
     width: 100%;
     position: relative;
 }
 
 .category .top .most-popular .text{
     width: 100%;
-    height: 20%;
+    height: 25%;
     position: absolute;
     bottom: 0;
     margin-left: 15px;
@@ -225,8 +224,6 @@ header .right .menu{
 .category .top .latest-details{
     background-color: #fef4f2;
     height: 100%;
-    /* padding-left: 15px;
-    padding-top: 15px; */
     width: 85%;
     margin-right: 0;
 }
@@ -255,6 +252,7 @@ header .right .menu{
     margin-left: 15px;
     margin-bottom: 10px;
 }
+
 .category .top .latest-details p{
     color: #f42;
     font-size: 14px;
@@ -482,5 +480,107 @@ footer .nav{
         /* grid-column: 4/6; */
         grid-area: three;
         height: 100%;
+    }
+
+    .latest-news, .category-grid, .deals{
+        margin-left: 60px;
+    }
+
+    .latest-news .news-grid,
+    .deals .deal-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(120px, auto);
+        grid-gap: 30px;
+    }
+
+    .latest-news .news-grid .news,
+    .deals .deal-grid .deal{
+        grid-column: span 1;
+        grid-row: span 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .latest-news .news-grid .news-thumbnail,
+    .deals .deal-grid .deal .deal-thumbnail{
+        display: block;
+        width: 100%;
+    }
+
+    .latest-news .news-grid .news-thumbnail img,
+    .deals .deal-grid .deal .deal-thumbnail img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .latest-news .news-grid .news-details,
+    .deals .deal-grid .deal .deal-details{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .latest-news .news-grid .news-details .heading,
+    .deals .deal-grid .deal .deal-details .heading{
+        font-size: 18px;
+    }
+
+    .latest-news .news-grid .news-details .subtitle,
+    .deals .deal-grid .deal .deal-details .subtitle{
+        font-size: 14px;
+    }
+
+    .category-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(200px, auto);
+        grid-gap: 30px;
+        margin-left:
+    }
+
+    .category-grid .category .top .most-popular{
+        max-height: 300px;
+    }
+
+    .category .top .most-popular .text{
+        height: 40%;
+    }
+
+    .category-grid .category .top > div{
+        background-position: center;
+    }
+
+    .category .top .latest-details{
+        width: 75%;
+    }
+
+    .category .top .latest-thumbnail{
+        width: 25%;
+    }
+
+    .category .top .latest-details p{
+        padding-left: 10px;
+    }
+
+    .deals{
+        width: 100%;
+    }
+
+    footer{
+        padding: 4% 0;
+        height: 15vh;
+    }
+
+    footer .social-media,
+    footer .nav{
+        width: 30%;
+    }
+
+    footer .nav{
+        margin: 10px auto;
     }
 }
